@@ -36,6 +36,11 @@ out/
 ### VS Code ###
 .vscode/
 
+### DATABASE ###
+application.properties
+
+
+
 ### REACT ###
 logs
 *.log
