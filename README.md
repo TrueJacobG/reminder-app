@@ -7,9 +7,16 @@
 ---
 
 #### Stack:
-- React
+###### Backend:
 - Java 17
 - Spring
 - Mysql
+- Gradle
+- Lombok
+
+##### Frontend:
+- React
+- Typescript
+- Vite
 
 [wiki]: https://github.com/TrueJacobG/reminder-app/wiki
