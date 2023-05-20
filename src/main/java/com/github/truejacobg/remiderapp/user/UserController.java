@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 @Controller
 public class UserController {
     @GetMapping("/api/v1/status")
-    @CrossOrigin(origins = "localhost:3000")
+    @CrossOrigin(origins = "localhost:5173")
     public ResponseEntity<String> getStatus(){
-        return ResponseEntity.ok("Works!");
+        return ResponseEntity.ok(User.class.getSimpleName() + " controller works!");
     }
 }
