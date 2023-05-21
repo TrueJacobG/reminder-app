@@ -29,6 +29,7 @@ public class UserController {
     @GetMapping("")
     @CrossOrigin(origins = "localhost:5173")
     public ResponseEntity<List<User>> getAllUsers() {
+
         return ResponseEntity.ok(null);
     }
 }
