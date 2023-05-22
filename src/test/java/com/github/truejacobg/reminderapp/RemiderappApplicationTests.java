@@ -1,4 +1,4 @@
-package com.github.truejacobg.remiderapp;
+package com.github.truejacobg.reminderapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

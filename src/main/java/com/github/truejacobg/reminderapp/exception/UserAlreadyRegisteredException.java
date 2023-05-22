@@ -1,4 +1,4 @@
-package com.github.truejacobg.remiderapp.exception;
+package com.github.truejacobg.reminderapp.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;

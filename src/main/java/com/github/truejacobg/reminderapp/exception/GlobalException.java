@@ -1,4 +1,4 @@
-package com.github.truejacobg.remiderapp.exception;
+package com.github.truejacobg.reminderapp.exception;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

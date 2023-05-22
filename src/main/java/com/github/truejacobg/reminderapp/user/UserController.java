@@ -1,4 +1,4 @@
-package com.github.truejacobg.remiderapp.user;
+package com.github.truejacobg.reminderapp.user;
 
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;

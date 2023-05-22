@@ -1,4 +1,4 @@
-package com.github.truejacobg.remiderapp.exception;
+package com.github.truejacobg.reminderapp.exception;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

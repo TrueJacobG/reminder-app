@@ -1,4 +1,4 @@
-package com.github.truejacobg.remiderapp.user;
+package com.github.truejacobg.reminderapp.user;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.Column;

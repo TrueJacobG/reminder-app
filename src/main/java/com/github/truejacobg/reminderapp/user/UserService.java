@@ -1,6 +1,6 @@
-package com.github.truejacobg.remiderapp.user;
+package com.github.truejacobg.reminderapp.user;
 
-import com.github.truejacobg.remiderapp.exception.UserAlreadyRegisteredException;
+import com.github.truejacobg.reminderapp.exception.UserAlreadyRegisteredException;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
