@@ -4,6 +4,8 @@ import com.github.truejacobg.reminderapp.exception.UserAlreadyRegisteredExceptio
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 @AllArgsConstructor
 public class UserService {
@@ -15,5 +17,9 @@ public class UserService {
         }
 
         return userRepository.save(user);
+    }
+
+    public List<User> getAllUsers() {
+        return userRepository.findAll();
     }
 }

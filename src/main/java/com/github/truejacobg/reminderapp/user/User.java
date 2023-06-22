@@ -1,25 +1,20 @@
 package com.github.truejacobg.reminderapp.user;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
 @Data
+@Table(name = "users")
 @AllArgsConstructor
 @NoArgsConstructor
 public class User {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
     private String name;
     private String email;
-
-    @Column(name = "auth_data")
-    @JsonProperty("auth_data")
-    private String authData;
 }
