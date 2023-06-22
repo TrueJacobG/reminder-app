@@ -10,13 +10,18 @@
 ###### Backend:
 - Java 17
 - Spring
-- Mysql
 - Gradle
 - Lombok
+- JUnit 5
+- Testcontainers
 
 ##### Frontend:
 - React
 - Typescript
 - Vite
+
+##### Database:
+- Docker
+- Mysql
 
 [wiki]: https://github.com/TrueJacobG/reminder-app/wiki
